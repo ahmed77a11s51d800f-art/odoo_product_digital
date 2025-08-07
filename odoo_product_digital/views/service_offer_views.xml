@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <!-- Tree View for Service Offer -->
+        <record id="service_offer_view_tree" model="ir.ui.view">
+            <field name="name">odoo_product_digital.service_offer.tree</field>
+            <field name="model">odoo_product_digital.service_offer</field>
+            <field name="arch" type="xml">
+                <tree string="Service Offers">
+                    <field name="name"/>
+                    <field name="capabilities"/>
+                    <field name="proposed_value"/>
+                    <field name="catalog_entry"/>
+                    <field name="interaction_types"/>
+                    <field name="expectations"/>
+                    <field name="costs"/>
+                    <field name="sla"/>
+                    <field name="security"/>
+                    <field name="consumption_rates"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form View for Service Offer -->
+        <record id="service_offer_view_form" model="ir.ui.view">
+            <field name="name">odoo_product_digital.service_offer.form</field>
+            <field name="model">odoo_product_digital.service_offer</field>
+            <field name="arch" type="xml">
+                <form string="Service Offer">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="capabilities"/>
+                            <field name="proposed_value"/>
+                            <field name="catalog_entry"/>
+                            <field name="interaction_types"/>
+                            <field name="expectations"/>
+                            <field name="costs"/>
+                            <field name="sla"/>
+                            <field name="security"/>
+                            <field name="consumption_rates"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
