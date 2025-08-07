@@ -1,6 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_service_system,Service System Access,model_odoo_product_digital_service_system,base.group_user,1,1,1,1
-access_service_offer,Service Offer Access,model_odoo_product_digital_service_offer,base.group_user,1,1,1,1
-access_contract,Contract Access,model_odoo_product_digital_contract,base.group_user,1,1,1,1
-access_product_instance,Product Instance Access,model_odoo_product_digital_product_instance,base.group_user,1,1,1,1
-
